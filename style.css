@@ -1,0 +1,47 @@
+* {
+  text-align: center;
+  background-color: aqua;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.userinput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  border-radius: 20px;
+  font-size: medium;
+  width: 90%;
+  padding: 5px;
+  margin: 5px;
+}
+h1 {
+  color: peachpuff;
+  border-radius: 15px;
+  padding: 7px;
+  align-items: center;
+}
+.userbutton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: mediumturquoise;
+}
+button {
+  border-radius: 20px;
+  color: teal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 90%;
+  margin: 3px;
+  background-color: wheat;
+}
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 7px;
+  background-color: cadetblue;
+}
+.calc {
+  max-width: 450pxpx;
+  margin: auto;
+}
